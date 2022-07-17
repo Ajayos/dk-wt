@@ -1,9 +1,9 @@
 # Dockerised kali web terminal which can be easily host on heroku and accessible from browser.
 
+---
 
 
-Do you want to host your terminal,and can be accessible from web browser
-
+# Do you want to host your terminal,and can be accessible from web browser
 
 ## Requirements:
 
@@ -22,14 +22,12 @@ Do you want to host your terminal,and can be accessible from web browser
  
  > `there {USERNAME} to your own username and {PASSWORD} to your own password`
 ---
-> copy this link  
-```
-https://heroku.com/deploy?template=https://github.com/{your_git_username}/dk-wt
-```
- And edit `{your_git_username}` to your github username 
+> copy this link  https://heroku.com/deploy?template=https://github.com/{your_git_username}/dk-wt
+
+> And edit `{your_git_username}` to your github username 
  
-for eg:
-    `in my case 'https://heroku.com/deploy?template=https://github.com/Ajay-o-s/dk-wt'`
+> for eg:
+     in my case https://heroku.com/deploy?template=https://github.com/Ajay-o-s/dk-wt
 
 ---
 
