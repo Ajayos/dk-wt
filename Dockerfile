@@ -22,8 +22,9 @@ RUN apt-get install -y cmatrix
 RUN apt-get install -y npm
 RUN apt-get install -y curl
 RUN apt-get install -y wget
+RUN apt-get install python3-pip
 RUN npm install -g heroku
-RUN pip install lolcat
+RUN pip3 install lolcat
 RUN apt-get install -y tigervnc-standalone-server
 
 COPY root.sh /usr/local/bin/root.sh
