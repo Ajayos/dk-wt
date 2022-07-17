@@ -1,0 +1,5 @@
+build:
+  docker:
+    web: Dockerfile
+run: 
+    web: ttyd -c {USERNAME}:{PASSWORD} -p $PORT bash
