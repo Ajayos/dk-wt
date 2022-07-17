@@ -31,7 +31,7 @@
 
 ---
 
-> after build, make refresh the heroku page and turn on web ( in case that show as off )
+> after build, make refresh the heroku page and turn on web `( in case that show as off )`
  
 ---
 
