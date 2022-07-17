@@ -9,7 +9,7 @@ ENV DEBIAN_FRONTEND=noninteractive
 RUN apt-get install -y fakechroot
 RUN apt-get install -y --no-install-recommends build-essential libjson-c-dev libwebsockets-dev
 RUN apt-get install -y rsync
-RUN apt-get install -y python
+RUN apt-get install -y python3
 RUN apt-get install -y cmake
 RUN apt-get install -y git
 RUN apt-get install -y sudo
