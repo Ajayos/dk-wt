@@ -1,4 +1,4 @@
-FROM kalilinux/kali:latest
+FROM kalilinux/kali-rolling
 RUN apt-get update && apt-get upgrade -y
 
 RUN apt-get install -y openssh-server
